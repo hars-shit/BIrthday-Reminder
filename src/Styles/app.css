@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(197 82 167);
+}
+main{
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background: rgb(232, 233, 224);
+    width: 30%;
+    gap: 15px;
+    border: 2px solid rgb(232, 233, 224);
+    align-items: baseline;
+    padding: 37px 46px ;
+
+}
+button{
+    font-size: 1.6rem;
+    align-self: center;
+    width: 53%;
+    height: 60px;
+    border: none;
+    color: white;
+    background-color: deeppink;
+    outline: none;
+}
